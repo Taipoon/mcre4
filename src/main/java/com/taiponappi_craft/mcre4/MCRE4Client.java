@@ -11,9 +11,9 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
-@Mod(value = MCRE4.MODID, dist = Dist.CLIENT)
+@Mod(value = MCRE4.MOD_ID, dist = Dist.CLIENT)
 // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-@EventBusSubscriber(modid = MCRE4.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = MCRE4.MOD_ID, value = Dist.CLIENT)
 public class MCRE4Client {
     public MCRE4Client(ModContainer container) {
         // Allows NeoForge to create a config screen for this mod's configs.
