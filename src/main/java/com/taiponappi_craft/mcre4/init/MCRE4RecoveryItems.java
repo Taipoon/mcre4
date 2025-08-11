@@ -12,11 +12,12 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class MCRE4RecoveryItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MCRE4.MOD_ID);
+    public static final DeferredRegister.Items RECOVERY_ITEMS = DeferredRegister.createItems(MCRE4.MOD_ID);
     public static final DeferredRegister<CreativeModeTab> CREATE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MCRE4.MOD_ID);
 
     // ブラックバス
-    public static final DeferredItem<Item> BLACK_BASS = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> BLACK_BASS = RECOVERY_ITEMS
+    .registerSimpleItem(
         "black_bass",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -25,7 +26,8 @@ public class MCRE4RecoveryItems {
     );
 
     // ランカーバス
-    public static final DeferredItem<Item> LUNKER_BASS = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> LUNKER_BASS = RECOVERY_ITEMS
+    .registerSimpleItem(
         "lunker_bass",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -35,7 +37,8 @@ public class MCRE4RecoveryItems {
 
     // 緑ハーブ
     private static final int greenHerbNutrition = 5;
-    public static final DeferredItem<Item> GREEN_HERB = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> GREEN_HERB = RECOVERY_ITEMS
+    .registerSimpleItem(
         "green_herb",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -44,20 +47,23 @@ public class MCRE4RecoveryItems {
     );
 
     // 赤ハーブ
-    public static final DeferredItem<Item> RED_HERB = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> RED_HERB = RECOVERY_ITEMS
+    .registerSimpleItem(
         "red_herb",
         new Item.Properties().stacksTo(1).fireResistant()
     );
 
     // 黄ハーブ
-    public static final DeferredItem<Item> YELLOW_HERB = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> YELLOW_HERB = RECOVERY_ITEMS
+    .registerSimpleItem(
         "yellow_herb",
         new Item.Properties().stacksTo(1).fireResistant()
     );
 
     // 緑+緑ハーブ
     private static final int mixedHerbsGG = 10;
-    public static final DeferredItem<Item> MIXED_HERBS_GG = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> MIXED_HERBS_GG = RECOVERY_ITEMS
+    .registerSimpleItem(
         "mixed_herbs_gg",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -67,7 +73,8 @@ public class MCRE4RecoveryItems {
 
     // 緑+赤ハーブ
     private static final int mixedHerbsGR = 20;
-    public static final DeferredItem<Item> MIXED_HERBS_GR = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> MIXED_HERBS_GR = RECOVERY_ITEMS
+    .registerSimpleItem(
         "mixed_herbs_gr",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -77,7 +84,8 @@ public class MCRE4RecoveryItems {
 
     // 緑+黄ハーブ
     private static final int mixedHerbsGY = greenHerbNutrition;
-    public static final DeferredItem<Item> MIXED_HERBS_GY = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> MIXED_HERBS_GY = RECOVERY_ITEMS
+    .registerSimpleItem(
         "mixed_herbs_gy",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -86,14 +94,16 @@ public class MCRE4RecoveryItems {
     );
 
     // 赤+黄ハーブ
-    public static final DeferredItem<Item> MIXED_HERBS_RY = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> MIXED_HERBS_RY = RECOVERY_ITEMS
+    .registerSimpleItem(
         "mixed_herbs_ry",
         new Item.Properties().stacksTo(1).fireResistant()
     );
 
     // 緑+緑+緑ハーブ
     private static final int mixedHerbsGGG = mixedHerbsGR;
-    public static final DeferredItem<Item> MIXED_HERBS_GGG = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> MIXED_HERBS_GGG = RECOVERY_ITEMS
+    .registerSimpleItem(
         "mixed_herbs_ggg",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -103,7 +113,8 @@ public class MCRE4RecoveryItems {
 
     // 緑+赤+黄ハーブ
     private static final int mixedHerbsGRY = mixedHerbsGR;
-    public static final DeferredItem<Item> MIXED_HERBS_GRY = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> MIXED_HERBS_GRY = RECOVERY_ITEMS
+    .registerSimpleItem(
         "mixed_herbs_gry",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -113,7 +124,8 @@ public class MCRE4RecoveryItems {
 
     // 救急スプレー
     private static final int firstAidSpray = mixedHerbsGR;
-    public static final DeferredItem<Item> FIRST_AID_SPRAY = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> FIRST_AID_SPRAY = RECOVERY_ITEMS
+    .registerSimpleItem(
         "first_aid_spray",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -123,7 +135,8 @@ public class MCRE4RecoveryItems {
 
     // 卵
     private static final int chickenEgg = 5;
-    public static final DeferredItem<Item> CHICKEN_EGG = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> CHICKEN_EGG = RECOVERY_ITEMS
+    .registerSimpleItem(
         "chicken_egg",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -133,7 +146,8 @@ public class MCRE4RecoveryItems {
 
     // 卵(茶)
     private static final int brownChickenEgg = 15;
-    public static final DeferredItem<Item> BROWN_CHICKEN_EGG = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> BROWN_CHICKEN_EGG = RECOVERY_ITEMS
+    .registerSimpleItem(
         "brown_chicken_egg",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -143,7 +157,8 @@ public class MCRE4RecoveryItems {
 
     // 卵(金)
     private static final int goldChickenEgg = mixedHerbsGR;
-    public static final DeferredItem<Item> GOLD_CHICKEN_EGG = ITEMS.registerSimpleItem(
+    public static final DeferredItem<Item> GOLD_CHICKEN_EGG = RECOVERY_ITEMS
+    .registerSimpleItem(
         "gold_chicken_egg",
         new Item.Properties().food(
             new FoodProperties.Builder()
@@ -187,7 +202,7 @@ public class MCRE4RecoveryItems {
 
 
     public static void register(IEventBus eventBus) {
-        ITEMS.register(eventBus);
+        RECOVERY_ITEMS.register(eventBus);
         CREATE_MODE_TABS.register(eventBus);
     }
 }
