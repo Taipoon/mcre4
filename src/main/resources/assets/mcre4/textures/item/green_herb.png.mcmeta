@@ -1,0 +1,12 @@
+{
+  "texture": {
+    "blur": false,
+    "clamp": false
+  },
+  "gui": {
+    "scaling": {
+      "type": "stretch"
+    }
+  },
+  "animation": {}
+}
