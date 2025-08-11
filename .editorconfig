@@ -9,3 +9,6 @@ insert_final_newline = true
 [{Makefile,*.mk}]
 indent_style = tab
 indent_size = 4
+
+[*.java]
+indent_size = 4
