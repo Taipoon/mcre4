@@ -11,7 +11,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-public class MCRE4Items {
+public class MCRE4RecoveryItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MCRE4.MOD_ID);
     public static final DeferredRegister<CreativeModeTab> CREATE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MCRE4.MOD_ID);
 

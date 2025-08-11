@@ -1,6 +1,6 @@
 package com.taiponappi_craft.mcre4;
 
-import com.taiponappi_craft.mcre4.init.MCRE4Items;
+import com.taiponappi_craft.mcre4.init.MCRE4RecoveryItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -73,8 +73,8 @@ public class MCRE4 {
         BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         ITEMS.register(modEventBus);
-        // init/MCRE4Items
-        MCRE4Items.register(modEventBus);
+        // init/MCRE4RecoveryItems
+        MCRE4RecoveryItems.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
