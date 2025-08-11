@@ -1,0 +1,13 @@
+{
+  "category": "###CATEGORY###",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "mcre4:green_herb",
+    "mcre4:red_herb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mcre4:###RESULT###"
+  },
+  "show_notification": false
+}

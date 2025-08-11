@@ -1,0 +1,13 @@
+{
+  "category": "mcre4:recovery_items",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "mcre4:green_herb",
+    "mcre4:red_herb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mcre4:mixed_herbs_gr"
+  },
+  "show_notification": false
+}
