@@ -1,0 +1,13 @@
+{
+  "itemGroup.mcre4": "Example Mod Tab",
+  "block.mcre4.example_block": "Example Block",
+  "item.mcre4.example_item": "Example Item",
+
+  "mcre4.configuration.title": "MC:RE4 Configs",
+  "mcre4.configuration.section.mcre4.common.toml": "MC:RE4 Configs",
+  "mcre4.configuration.section.mcre4.common.toml.title": "MC:RE4 Configs",
+  "mcre4.configuration.items": "Item List",
+  "mcre4.configuration.logDirtBlock": "Log Dirt Block",
+  "mcre4.configuration.magicNumberIntroduction": "Magic Number Text",
+  "mcre4.configuration.magicNumber": "Magic Number"
+}
